@@ -6,7 +6,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/YOUR_USERNAME/devops-website.git'
+                url: 'https://github.com/SharonEngineer/devops-website.git'
             }
         }
 
